@@ -270,3 +270,14 @@ CREATE TABLE Persons
 
 #### 49. Write the correct SQL statement to delete a table called Persons.
 DROP TABLE Persons;
+
+#### 50. Use the TRUNCATE statement to delete all data inside a table.
+TRUNCATE TABLE Persons;
+
+#### 51. Add a column of type DATE called Birthday.
+ALTER TABLE Persons
+ADD Birthday DATE;
+
+#### 52. Delete the column Birthday from the Persons table.
+ALTER TABLE Persons
+DROP COLUMN Birthday;
